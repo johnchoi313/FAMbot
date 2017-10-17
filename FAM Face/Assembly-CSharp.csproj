@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{1D562799-84B1-F083-BBE4-4E9ABCDE4F8A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Callback\AccountInfoCallback.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Callback\BatteryCallback.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Callback\ContactCallback.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Callback\DeviceInfoCallback.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Callback\GPSCallback.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Callback\InternetCallback.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Example\AccountInfoDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Example\AndroidAdvanceInfoDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Example\AndroidFinishActivityInfoDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Example\BatteryLifeDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Example\ContactInfoDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Example\GPSDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Example\InternetInfoDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Example\TimeDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Main\AccountInfoPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Main\BatteryPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Main\ContactInfoPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Main\DeviceInfoPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Main\GPSPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Main\InternetPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Main\TimePlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\AndroidInfoScanner\Scripts\Test\InternetSpeedChecker.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Callback\AlarmCallback.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Callback\BluetoothConnectionCallback.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Callback\BluetoothDataCallback.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Callback\CameraCallback.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Callback\CustomCameraCallback.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Callback\ImagePickerCallback.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Callback\MediaScannerCallback.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Callback\NotificationCallback.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Examples\AlarmDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Examples\AndroidNativeUIDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Examples\AudioRecorderExample.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Examples\BlueToothDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Examples\CameraDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Examples\CameraFragmentDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Examples\CustomCameraDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Examples\FlashlightDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Examples\GooglePlayGamesControllerDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Examples\ImagePickerDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Examples\LocalNotificationDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Examples\ShareAndExperienceDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Examples\SharedPrefDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Examples\ShareExistingTextureDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Examples\ShareTextureFromWebDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Examples\VibrationExample.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Helpers\HideShowGameObject.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Main\AlarmPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Main\AudioRecorderPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Main\BlueToothPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Main\CameraFragmentPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Main\CameraPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Main\CustomCameraPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Main\FlashlightPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Main\ImagePickerPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Main\LocalNotificationPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Main\MediaScannerPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Main\SharedPrefPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Main\SharePlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Main\VibratorPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Tests\SceneController.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\BasicPlugin\Scripts\Tests\SceneUIController.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\Common\AUPHolder.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\Common\DemoController.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\Common\dispatcher\Dispatcher.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\Common\dispatcher\interfaces\IDispatcher.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\Common\Extension\GooglePlayGames\GPGController.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\Common\Utils.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\Common\UtilsPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\SpeechTTS\Scripts\Callback\SpeechCallback.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\SpeechTTS\Scripts\Callback\TTSCallback.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\SpeechTTS\Scripts\Enum\EnumExtentions.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\SpeechTTS\Scripts\Enum\SpeechExtraLocale.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\SpeechTTS\Scripts\Enum\SpeechLocale.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\SpeechTTS\Scripts\Enum\SpeechRecognizerError.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\SpeechTTS\Scripts\Enum\TTSLocaleCountry.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\SpeechTTS\Scripts\Example\SpeechRecognizerDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\SpeechTTS\Scripts\Example\SpeechRecognizerDemo2.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\SpeechTTS\Scripts\Example\TextToSpeechDemo.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\SpeechTTS\Scripts\Example\TextToSpeechDemo2.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\SpeechTTS\Scripts\Helpers\SpeechLocaleHelper.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\SpeechTTS\Scripts\Main\SpeechPlugin.cs" />
+     <Compile Include="Assets\AndroidUltimatePlugin\SpeechTTS\Scripts\Main\TextToSpeechPlugin.cs" />
+     <Compile Include="Assets\Boomlagoon\JSON\JSONObject.cs" />
+     <Compile Include="Assets\Boomlagoon\JSON\TestScene\JSONObjectTester.cs" />
+     <Compile Include="Assets\BT_Library\Demos\Android2Android\ServerClient.cs" />
+     <Compile Include="Assets\BT_Library\Demos\Automatic Connection\AutoConnect.cs" />
+     <Compile Include="Assets\BT_Library\Demos\Basic Demo\BasicDemo.cs" />
+     <Compile Include="Assets\BT_Library\Demos\Bluetooth Joystick Tutorial\JoystickHandler.cs" />
+     <Compile Include="Assets\BT_Library\Demos\Bluetooth Terminal\TerminalController.cs" />
+     <Compile Include="Assets\BT_Library\Demos\Devices Discovery\BtDiscovery.cs" />
+     <Compile Include="Assets\BT_Library\Demos\High Bit Rate Terminal\HighRateTerminal.cs" />
+     <Compile Include="Assets\BT_Library\Scripts\BluetoothAdapter.cs" />
+     <Compile Include="Assets\BT_Library\Scripts\BluetoothDevice.cs" />
+     <Compile Include="Assets\BT_Library\Scripts\CoreLibrary\BtBridge.cs" />
+     <Compile Include="Assets\BT_Library\Scripts\CoreLibrary\BtPackets.cs" />
+     <Compile Include="Assets\BT_Library\Scripts\ScrollTerminalUI.cs" />
+     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscBlobEvent.cs" />
+     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscBoolEvent.cs" />
+     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscCharEvent.cs" />
+     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscColorEvent.cs" />
+     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscDoubleEvent.cs" />
+     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscFloatEvent.cs" />
+     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscIntEvent.cs" />
+     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscLongEvent.cs" />
+     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscMessageEvent.cs" />
+     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscStringEvent.cs" />
+     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscTimeTagEvent.cs" />
+     <Compile Include="Assets\OSC simpl\Base\Internal\OscHelper.cs" />
+     <Compile Include="Assets\OSC simpl\Base\Internal\OscMapping.cs" />
+     <Compile Include="Assets\OSC simpl\Base\Internal\OscMessageType.cs" />
+     <Compile Include="Assets\OSC simpl\Base\Internal\OscPacket.cs" />
+     <Compile Include="Assets\OSC simpl\Base\OscBundle.cs" />
+     <Compile Include="Assets\OSC simpl\Base\OscImpulse.cs" />
+     <Compile Include="Assets\OSC simpl\Base\OscMessage.cs" />
+     <Compile Include="Assets\OSC simpl\Base\OscReceiveMode.cs" />
+     <Compile Include="Assets\OSC simpl\Base\OscRemoteStatus.cs" />
+     <Compile Include="Assets\OSC simpl\Base\OscSendMode.cs" />
+     <Compile Include="Assets\OSC simpl\Base\OscTimeTag.cs" />
+     <Compile Include="Assets\OSC simpl\Examples\01 GettingStarted\GettingStartedReceiving.cs" />
+     <Compile Include="Assets\OSC simpl\Examples\01 GettingStarted\GettingStartedSending.cs" />
+     <Compile Include="Assets\OSC simpl\Examples\02 ArgumentTypes\ArgumentTypeTest.cs" />
+     <Compile Include="Assets\OSC simpl\Examples\03 RuntimeUI\Scripts\OscInRuntimeUI.cs" />
+     <Compile Include="Assets\OSC simpl\Examples\03 RuntimeUI\Scripts\OscOutRuntimeUI.cs" />
+     <Compile Include="Assets\OSC simpl\Examples\03 RuntimeUI\Scripts\TestMessageGenerator.cs" />
+     <Compile Include="Assets\OSC simpl\Examples\04 Bundles\UsingBundles.cs" />
+     <Compile Include="Assets\OSC simpl\Examples\05 TimeTags\UsingTimeTags.cs" />
+     <Compile Include="Assets\OSC simpl\Examples\06 Unicast\UsingUnicast.cs" />
+     <Compile Include="Assets\OSC simpl\Examples\07 Broadcast\UsingBroadcast.cs" />
+     <Compile Include="Assets\OSC simpl\Examples\08 Multicast\UsingMulticast.cs" />
+     <Compile Include="Assets\OSC simpl\Examples\09 Optimisations\Optimisations.cs" />
+     <Compile Include="Assets\OSC simpl\OscIn.cs" />
+     <Compile Include="Assets\OSC simpl\OscOut.cs" />
+     <Compile Include="Assets\Scripts\BluetoothController.cs" />
+     <Compile Include="Assets\Scripts\EyeWarp.cs" />
+     <Compile Include="Assets\Scripts\FAMBluetooth.cs" />
+     <Compile Include="Assets\Scripts\FAMKeyboard.cs" />
+     <Compile Include="Assets\uGUIColorPicker-free\Demo\Scripts\BackGroundEffect.cs" />
+     <Compile Include="Assets\uGUIColorPicker-free\Demo\Scripts\IconRotater.cs" />
+     <Compile Include="Assets\uGUIColorPicker-free\Demo\Scripts\LevelLoader.cs" />
+     <Compile Include="Assets\uGUIColorPicker-free\Demo\Scripts\OpenBrowser.cs" />
+     <Compile Include="Assets\uGUIColorPicker-free\Demo\Scripts\RenderColor.cs" />
+     <None Include="Assets\BT_Library\Arduino_Basic_Test\Read me.txt" />
+     <None Include="Assets\OSC simpl\Documents\Versions.txt" />
+     <None Include="Assets\AndroidUltimatePlugin\MetaData.txt" />
+     <None Include="Assets\Plugins\Android\res\layout\cameralayout.xml" />
+     <None Include="Assets\BT_Library\Old Version\Older Version.txt" />
+     <None Include="Assets\AndroidUltimatePlugin\GooglePlayServicesSetup.txt" />
+     <None Include="Assets\AndroidUltimatePlugin\ChangeLog.txt" />
+     <None Include="Assets\BT_Library\Demos\Devices Discovery\ReadME.txt" />
+     <None Include="Assets\Plugins\Android\res\values\version.xml" />
+     <None Include="Assets\BT_Library\Demos\Bluetooth Terminal\ReadMe.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\BT_Library\Demos\Basic Demo\ReadMe.txt" />
+     <None Include="Assets\Boomlagoon\JSON\Readme.txt" />
+     <None Include="Assets\BT_Library\Demos\Android2Android\ReadMe.txt" />
+     <None Include="Assets\AndroidUltimatePlugin\HowToUse.txt" />
+     <None Include="Assets\BT_Library\Demos\High Bit Rate Terminal\ReadMe.txt" />
+     <None Include="Assets\BT_Library\Combining Plugins.txt" />
+     <None Include="Assets\Plugins\Android\SampleAndroidManifest\AndroidManifest.xml" />
+     <None Include="Assets\AndroidUltimatePlugin\Features.txt" />
+     <None Include="Assets\BT_Library\Demos\Automatic Connection\ReadMe.txt" />
+     <None Include="Assets\BT_Library\NativeLibraries\Android\BT_Library_Bluetooth_Classic.jar.txt" />
+     <None Include="Assets\BT_Library\Demos\ReadMe.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="uCPf">
+ <HintPath>C:/Users/DOCTOR/Desktop/Helping Other People/Fine Arts Miracles/Soft Robot Software/FAM Face/Assets/uGUIColorPicker-free/Plugins/uCPf.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
